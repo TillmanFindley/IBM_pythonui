@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/<remainderofurl>')
 def input(string):
     inp = string
-    render_template('index.html')
+    return render_template('index.html' + inp)
 
 #@app.route('/string', methods = ['GET'])
 #def string():
