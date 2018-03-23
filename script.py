@@ -3,8 +3,11 @@ from flask import Flask, render_template, request, redirect
 app = Flask(__name__)
 
 @app.route('/')
-def input():
-    return render_template('index.html')
+string + raw_input("input Watson weather command: ")
+def input(string):
+    string = val 
+    print val
+    #return render_template('index.html')
 
 #@app.route('/string', methods = ['GET'])
 #def string():
