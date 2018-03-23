@@ -2,11 +2,10 @@ import os
 from flask import Flask, render_template, request, redirect
 app = Flask(__name__)
 
-@app.route('/')
-string + raw_input("input Watson weather command: ")
-def input(string):
-    string = val 
-    print val
+@app.route('/<remainderOfUrl')
+def input(remainderOfUrl):
+    string = remainderOfUrl
+    print string
     #return render_template('index.html')
 
 #@app.route('/string', methods = ['GET'])
